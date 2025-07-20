@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation';
+//import { notFound } from 'next/navigation';
 import AppProviders from '@/app/components/AppProviders';
 import '@/app/globals.css';
 import { DM_Sans } from 'next/font/google';
@@ -19,7 +19,7 @@ export default async function LocaleLayout({ children, params }) {
     messages = (await import(`@/app/messages/${locale}.json`)).default;
   } catch (err) {
     console.error(`Missing messages for locale "${locale}"`);
-    notFound();
+    //notFound();
   }
 
   return (
