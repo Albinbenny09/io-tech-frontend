@@ -1,0 +1,15 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "blog": "Blog",
+    "team": "Our Team",
+    "contact": "Contact Us",
+    "searchPlaceholder": "Search...",
+    "book": "Book Appointment",
+    "lang": "En",
+    "langSwitch": "العربية"
+  }
+}
+

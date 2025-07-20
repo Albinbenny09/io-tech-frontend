@@ -1,0 +1,14 @@
+{
+  "Navbar": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "services": "خدماتنا",
+    "blog": "المدونة",
+    "team": "فريقنا",
+    "contact": "اتصل بنا",
+    "searchPlaceholder": "بحث...",
+    "book": "احجز موعد",
+    "lang": "ع",
+    "langSwitch": "English"
+  }
+}
