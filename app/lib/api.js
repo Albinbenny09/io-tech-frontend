@@ -116,7 +116,7 @@ export async function getHeroPages(locale ='en') {
       heading: item.heading,
       description: item.description,
       media: item.media?.map(file => ({
-        url: `http://localhost:1337${file.url}`,
+        url: `${process.env.NEXT_PUBLIC_STRAPI_MEDIA}${file.url}`,
         mime: file.mime,
       })) || []
     })); // ✅ <-- Closing parenthesis was missing here
